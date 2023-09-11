@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta name="viewport" content="width=device-width" user-scalable="no" initial-scale="1.0" maximum-scale="1.0" minimum-scale="1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta charset="UTF-8">
+        <title>Tropica Island</title>
+        <link rel="stylesheet" href="/css/forms.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+
+        <div class="menu-btn">
+          <a href="/html/booking.html" class="btn">BACK TO THE BOOKING</a>
+        </div>
+            
+  </head>
+  <body>
+    <div class="booking-container1">
+
+    <section class="booking-form">
+        <h2>Booking Form</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="check-in">Check-in Date:</label>
+            <input type="date" id="check-in" name="check-in" required>
+
+            <label for="check-out">Check-out Date:</label>
+            <input type="date" id="check-out" name="check-out" required>
+
+            <label for="room-type">Room Type:</label>
+            <select id="room-type" name="room-type" required>
+                <option value="single">Single Room</option>
+                <option value="double">Double Room</option>
+                <option value="suite">Suite</option>
+            </select>
+
+            <button type="submit" class="book-button">Book Now</button>
+        </form>
+    </section>
+</div>
+</main>
+<div class="adv-container">
+  <h2>Adventure Booking</h2>
+  <form action="process_booking.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="adventure">Select Adventure:</label>
+      <select id="adventure" name="adventure" required>
+          <option value="surfing">Surfing</option>
+          <option value="boat_riding">Boat Riding</option>
+          <option value="snorkeling">Snorkeling</option>
+          <option value="dolphin_watching">Dolphin Watching</option>
+      </select>
+
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required>
+
+      <input type="submit" value="Book Now">
+  </form>
+</div>
+  </body>
