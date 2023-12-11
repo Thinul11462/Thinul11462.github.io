@@ -1,0 +1,209 @@
+.booking-container1 {
+    background-color: #092131;
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  .menu-btn{
+    text-align: center;
+    background-color: #0a0909;
+  }
+  .btn {
+    background-color: #070314;
+    color: #fdf9f9;
+    padding: 8px 16px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 1rem 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 900;
+    margin-top: 10px;
+  }
+  .menu-btn a{
+    background-color: rgb(177, 140, 15);
+  }
+  
+  .btn:hover {
+    background-color: #fdf9f9;
+    color: #131010;
+  }
+  
+  @media (max-width: 768px){
+    .btn{
+      display: none;
+    }
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+body, h1, h2, h3, p, ul, li, form, input, select, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.room-selection {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.room-card {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.room-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.booking-form {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form select, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .room-selection {
+        width: 100%;
+    }
+
+    .booking-form {
+        width: 100%;
+    }
+}
+
+/* adventure booking form */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"], input[type="email"], select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+}

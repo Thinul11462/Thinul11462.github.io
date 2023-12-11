@@ -1,0 +1,47 @@
+/* menu */
+.menu-container {
+  background-color: #092131;
+  background-image: url(/edited/myhotel/assets/vintage-restaurant.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.menu-btn{
+  text-align: center;
+  background-color: #0a0909;
+}
+.btn {
+  background-color: #070314;
+  color: #fdf9f9;
+  padding: 8px 16px;
+  display: inline-block;
+  text-decoration: none;
+  margin: 1rem 0;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 900;
+  margin-top: 10px;
+}
+.menu-btn a{
+  background-color: rgb(177, 140, 15);
+}
+
+.btn:hover {
+  background-color: #fdf9f9;
+  color: #131010;
+}
+
+@media (max-width: 768px){
+  .btn{
+    display: none;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
