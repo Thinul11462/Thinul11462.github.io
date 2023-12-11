@@ -12,7 +12,7 @@ body {
       hsla(235, 29%, 34%, 0.75),
       hsla(235, 29%, 34%, 0.75)
     ),
-    url(/assets/FIJI-Tropica-Island-Resort-pool-my-fiji-580x480-1.png);
+    url(/edited/myhotel/assets/FIJI-Tropica-Island-Resort-pool-my-fiji-580x480-1.png);
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -30,7 +30,7 @@ body {
     background-image: linear-gradient(
     hsla(235, 29%, 34%, 0.75),
     hsla(235, 29%, 34%, 0.75)
-    ), url(/assets/FIJI-Tropica-Island-Resort-pool-my-fiji-580x480-1.png);
+    ), url(edited/myhotel/assets/FIJI-Tropica-Island-Resort-pool-my-fiji-580x480-1.png);
   
     background-repeat: repeat;
   }
@@ -43,7 +43,7 @@ body {
    background-image: linear-gradient(
     hsla(235, 29%, 34%, 0.75),
     hsla(235, 29%, 34%, 0.75)
-  ), url(/assets/FIJI-Tropica-Island-Resort-pool-my-fiji-580x480-1.png);
+  ), url(edited/myhotel/assets/FIJI-Tropica-Island-Resort-pool-my-fiji-580x480-1.png);
 }
 }
 
@@ -53,7 +53,7 @@ body {
     background-image:linear-gradient(
       hsla(235, 29%, 34%, 0.75),
       hsla(235, 29%, 34%, 0.75)
-    ),  url(/assets/FIJI-Tropica-Island-Resort-pool-my-fiji-580x480-1.png);
+    ),  url(edited/myhotel/assets/FIJI-Tropica-Island-Resort-pool-my-fiji-580x480-1.png);
   }
       
   }
@@ -238,19 +238,19 @@ li.dropdown {
 }
 
 .card1 {
-  background-image: url(/assets/Anantara-Tangalle-2.jpg);
+  background-image: url(/edited/myhotel/assets/Anantara-Tangalle-2.jpg);
 }
 
 .card2 {
-  background-image: url(/assets/Anantara-Peace-Haven-Tangalle-Resort-Exterior.jpg);
+  background-image: url(/edited/myhotel/assets/Anantara-Peace-Haven-Tangalle-Resort-Exterior.jpg);
 }
 
 .card3 {
-  background-image: url(/assets/473338355.jpg);
+  background-image: url(/edited/myhotel/assets/473338355.jpg);
 }
 
 .card4 {
-  background-image: url(/assets/girl.jpg);
+  background-image: url(/edited/myhotel/assets/girl.jpg);
 }
 
 .card:hover {
@@ -1037,7 +1037,7 @@ background: rgba(95, 143, 164, 0.7);
   z-index: 1;
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(to bottom, rgba(3, 3, 3, 0.160), rgba(0, 0, 0, 0.800)),  url(/assets/bar-le-cote-dishes-lead-sun-6209-0721.jpg);
+  background-image: linear-gradient(to bottom, rgba(3, 3, 3, 0.160), rgba(0, 0, 0, 0.800)),  url(/edited/myhotel/assets/bar-le-cote-dishes-lead-sun-6209-0721.jpg);
   background-size: cover;
   background-position: center;
 }
